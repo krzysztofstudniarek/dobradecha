@@ -11,13 +11,13 @@
 <path d="m399 30-65 68 43-12 22 24 24-23 41 15z" fill="#fffdf7" stroke="#111" stroke-width="4" stroke-linejoin="round"/>
 <!-- Różowa linia zjazdu i równoległy ślad nart -->
 <g clip-path="url(#mountain-shape)" fill="none" stroke="#ee0089" stroke-linecap="round" stroke-linejoin="round">
- <path d="M395 96C343 119 337 151 389 173S471 207 419 235 309 267 322 307 275 359 208 389" stroke-width="9"/>
- <path d="M407 101C355 124 349 156 401 178S483 212 431 240 321 272 334 312 287 364 220 394" stroke-width="4"/>
+ <path d="M395 96C343 119 337 151 389 173S471 207 419 235 309 267 322 307 275 359 208 389" stroke-width="6"/>
+ <path d="M414 103C362 126 356 158 408 180S490 214 438 242 328 274 341 314 294 366 227 396" stroke-width="6"/>
 </g>
 <!-- Żółta linia zjazdu i równoległy ślad nart -->
 <g clip-path="url(#mountain-shape)" fill="none" stroke="#ffe600" stroke-linecap="round" stroke-linejoin="round">
- <path d="M407 98C462 121 471 150 430 178S363 221 414 250 526 282 507 319 549 363 622 389" stroke-width="9"/>
- <path d="M419 103C474 126 483 155 442 183S375 226 426 255 538 287 519 324 561 368 634 394" stroke-width="4"/>
+ <path d="M407 98C462 121 471 150 430 178S363 221 414 250 526 282 507 319 549 363 622 389" stroke-width="6"/>
+ <path d="M426 105C481 128 490 157 449 185S382 228 433 257 545 289 526 326 568 370 641 396" stroke-width="6"/>
 </g>
 <!-- Drobne ślady śniegu przy podstawie -->
 <path d="m126 405 42-6m474 5 38 2" stroke="#f3f0e5" stroke-width="5" stroke-linecap="round" opacity=".8"/>
