@@ -1,24 +1,25 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 430" role="img" aria-labelledby="title">
-<title id="title">Pojedynczy szczyt ze śladami narciarzy</title>
-<defs>
-  <clipPath id="mountain-shape"><path d="M45 397 399 30 755 397Z"/></clipPath>
-</defs>
-<!-- Jeden wyraźny, jasny szczyt na ciemnym tle sekcji -->
-<path d="M45 397 399 30 755 397Z" fill="#f3f0e5" stroke="#111" stroke-width="7" stroke-linejoin="round"/>
-<!-- Geometryczna ściana podkreśla kształt pojedynczej góry -->
-<path d="m399 30 356 367H548L355 145Z" fill="#ded8cc" clip-path="url(#mountain-shape)"/>
-<!-- Śnieżna korona -->
-<path d="m399 30-65 68 43-12 22 24 24-23 41 15z" fill="#fffdf7" stroke="#111" stroke-width="4" stroke-linejoin="round"/>
-<!-- Różowa linia zjazdu i równoległy ślad nart -->
-<g clip-path="url(#mountain-shape)" fill="none" stroke="#ee0089" stroke-linecap="round" stroke-linejoin="round">
- <path d="M395 96C343 119 337 151 389 173S471 207 419 235 309 267 322 307 275 359 208 389" stroke-width="6"/>
- <path d="M414 103C362 126 356 158 408 180S490 214 438 242 328 274 341 314 294 366 227 396" stroke-width="6"/>
+<title id="title">Pojedynczy szczyt i podwójne ślady nart</title>
+<defs><clipPath id="peak-clip"><path d="M28 407 400 28l372 379Z"/></clipPath></defs>
+<path d="M28 407 400 28l372 379Z" fill="#303034"/>
+<g clip-path="url(#peak-clip)">
+<!-- Różowy ślad: dwie narty, coraz szersze ku dołowi -->
+<g fill="none" stroke="#ee0089" stroke-linecap="round" stroke-linejoin="round">
+ <path d="M393 67C382 96 366 116 371 135" stroke-width="2.5"/>
+ <path d="M371 135C383 151 401 160 397 180S372 210 353 229" stroke-width="4"/>
+ <path d="M353 229C336 251 337 272 319 294S278 326 266 352 239 390 221 407" stroke-width="8"/>
+ <path d="M405 72C394 101 378 121 383 140" stroke-width="2.5"/>
+ <path d="M383 140C395 156 413 165 409 185S384 215 365 234" stroke-width="4"/>
+ <path d="M365 234C348 256 349 277 331 299S290 331 278 357 251 395 233 412" stroke-width="8"/>
 </g>
-<!-- Żółta linia zjazdu i równoległy ślad nart -->
-<g clip-path="url(#mountain-shape)" fill="none" stroke="#ffe600" stroke-linecap="round" stroke-linejoin="round">
- <path d="M407 98C462 121 471 150 430 178S363 221 414 250 526 282 507 319 549 363 622 389" stroke-width="6"/>
- <path d="M426 105C481 128 490 157 449 185S382 228 433 257 545 289 526 326 568 370 641 396" stroke-width="6"/>
+<!-- Żółty ślad: podwójna, szerzej rozchodząca się linia zjazdu -->
+<g fill="none" stroke="#ffe600" stroke-linecap="round" stroke-linejoin="round">
+ <path d="M407 67C419 96 438 115 433 134" stroke-width="2.5"/>
+ <path d="M433 134C421 151 401 163 407 182S434 211 454 230" stroke-width="4"/>
+ <path d="M454 230C474 251 476 272 494 294S538 326 551 352 580 390 600 407" stroke-width="8"/>
+ <path d="M419 72C431 101 450 120 445 139" stroke-width="2.5"/>
+ <path d="M445 139C433 156 413 168 419 187S446 216 466 235" stroke-width="4"/>
+ <path d="M466 235C486 256 488 277 506 299S550 331 563 357 592 395 612 412" stroke-width="8"/>
 </g>
-<!-- Drobne ślady śniegu przy podstawie -->
-<path d="m126 405 42-6m474 5 38 2" stroke="#f3f0e5" stroke-width="5" stroke-linecap="round" opacity=".8"/>
+</g>
 </svg>
