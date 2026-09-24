@@ -1,17 +1,17 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 500" role="img" aria-labelledby="title">
 <title id="title">Freestyle narciarz w locie w kolorach DobraDecha</title>
 <defs>
- <linearGradient id="brand" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#ee0089"/><stop offset=".52" stop-color="#f94600"/><stop offset="1" stop-color="#ffe600"/></linearGradient>
+ <linearGradient id="brand" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#ee0089"/><stop offset=".52" stop-color="#f94600"/><stop offset="1" stop-color="#00c8ff"/></linearGradient>
  <filter id="shadow" x="-30%" y="-20%" width="170%" height="150%"><feDropShadow dx="10" dy="12" stdDeviation="0" flood-color="#111"/></filter>
 </defs>
 <!-- edge-to-edge geometric freeride color mosaic -->
 <path fill="#ee0089" d="M0 0h720v500H0z"/>
 <path fill="#f94600" d="M0 0h225L89 106l207 48-95 84L0 179z"/>
-<path fill="#ffe600" d="M223 0h244L358 91l164 33-115 66-206-36 91-64z"/>
+<path fill="#00c8ff" d="M223 0h244L358 91l164 33-115 66-206-36 91-64z"/>
 <path fill="#f94600" d="M467 0h253v152l-158 74 39-93-134-42 99-48z"/>
-<path fill="#ffe600" d="M0 179 201 238 84 321l171-25-83 91L0 424z"/>
+<path fill="#00c8ff" d="M0 179 201 238 84 321l171-25-83 91L0 424z"/>
 <path fill="#f94600" d="m296 187 151 3-101 72 145 30-133 60 47 66-157 82H0l175-113 80-91-171 47 117-83-113-59z"/>
-<path fill="#ffe600" d="m514 226 206-74v116l-134 59 134 42v131H465l173-104-61-43 116-48-157-31 119-61-165 46z"/>
+<path fill="#00c8ff" d="m514 226 206-74v116l-134 59 134 42v131H465l173-104-61-43 116-48-157-31 119-61-165 46z"/>
 <!-- angular speed marks, kept inside the color mosaic -->
 <g fill="none" stroke="#111" stroke-linecap="round" stroke-linejoin="round">
  <path d="m15 119 117-31m-91 54 54-15m514 263 92-40m-66 64 42-18" stroke-width="6"/>
