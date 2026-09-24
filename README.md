@@ -11,4 +11,4 @@ Repozytorium jest przygotowane do publikacji z katalogu głównego:
 3. Wybierz gałąź `main` i katalog `/ (root)`, a następnie zapisz.
 4. Po zakończeniu wdrożenia GitHub pokaże adres strony `https://<login>.github.io/<repo>/`.
 
-Pliki strony: `index.html`, `dobradecha-logo.svg` i `ski-jump-illustration.svg`.
+Pliki strony: `index.html`, `dobradecha-logo.svg` i `ski-jump-illustration.svg` i `mountain-trails.svg`.
