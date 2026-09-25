@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 220 120" role="img" aria-labelledby="title desc">
+  <title id="title">DobraDecha simplified monochrome DD symbol</title>
+  <desc id="desc">Single-color version of the simplified DobraDecha DD monogram.</desc>
+  <defs>
+    <g id="D">
+      <path d="M12 0H55C95 0 122 25 122 60S95 120 55 120H12L4 112V8L12 0ZM34 27V93H53C81 93 99 81 99 60S81 27 53 27H34Z" fill-rule="evenodd"/>
+    </g>
+  </defs>
+  <use href="#D" fill="#111111"/>
+  <use href="#D" fill="#111111" transform="translate(76 0)"/>
+  <rect x="73" y="27" width="9" height="66" fill="#F3F0E5"/>
+</svg>
