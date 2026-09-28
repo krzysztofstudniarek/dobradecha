@@ -138,6 +138,18 @@
 .hero-art{touch-action:pan-y}
 .hero-carousel-dots button:focus-visible{outline:2px solid var(--orange);outline-offset:3px}
 
+.consent-banner{position:fixed;z-index:20;inset:auto 24px 24px;max-width:760px;margin-left:auto;background:var(--paper);border:1px solid var(--line);box-shadow:0 12px 40px #1113;padding:24px;display:grid;grid-template-columns:1fr auto;gap:18px;align-items:center}
+.consent-banner[hidden]{display:none}
+.consent-copy strong{display:block;font:800 18px 'Barlow Condensed';letter-spacing:.08em;text-transform:uppercase;margin-bottom:6px}
+.consent-copy p{margin:0;color:#45433f;font-size:14px;line-height:1.55;max-width:460px}
+.consent-actions{display:flex;gap:9px;flex-wrap:wrap;justify-content:flex-end}
+.consent-actions button,.consent-settings{min-height:42px;border:1px solid var(--ink);padding:10px 14px;font:700 12px 'DM Sans',sans-serif;cursor:pointer}
+.consent-accept{background:var(--ink);color:white}.consent-reject{background:transparent;color:var(--ink)}
+.consent-actions button:hover,.consent-settings:hover{background:var(--orange);color:var(--ink)}
+.consent-actions button:focus-visible,.consent-settings:focus-visible{outline:3px solid var(--orange);outline-offset:3px}
+.consent-settings{background:transparent;color:inherit;min-height:0;padding:0;border:0;text-decoration:underline;font:inherit;cursor:pointer}
+@media(max-width:650px){.consent-banner{inset:auto 14px 14px;grid-template-columns:1fr;padding:18px}.consent-actions{justify-content:stretch}.consent-actions button{flex:1}}
+
 </style></head>
 <body>
 <header class="wrap topbar"><a class="brand" href="#start" aria-label="DobraDecha, strona główna"><img src="dobradecha-logo.svg" alt=""><span class="brand-name"><i>Dobra</i>Decha</span></a><nav aria-label="Nawigacja"><a href="#narty">Narty</a><a href="#historia">Nasza pasja</a><a class="nav-cta" href="#kontakt">Zróbmy Twoje narty <b>↗</b></a></nav></header>
@@ -151,8 +163,51 @@
 <section id="narty" class="wrap section"><div class="section-head"><div><div class="kicker">Rzemiosło, które rusza w góry</div><h2>Twoje narty.<br><em>Twoje zasady.</em></h2></div><p>Każda para zaczyna się od rozmowy. O tym, jak jeździsz, gdzie lubisz skręcić i co chcesz zobaczyć pod stopami.</p></div><div class="cards"><article class="card"><span class="card-no">01 / DREWNO</span><div class="card-art">WOOD</div><div><h3>Serce z drewna</h3><p>Naturalny rdzeń i rzemieślnicza robota z warsztatu. Każda para przechodzi przez moje ręce.</p></div></article><article class="card"><span class="card-no">02 / CHARAKTER</span><div class="card-art">COLOR</div><div><h3>Kolor bez hamulców</h3><p>Wyrazista grafika, która nie ginie w tłumie. Narty mogą wyglądać dokładnie tak, jak chcesz.</p></div></article><article class="card"><span class="card-no">03 / DOPASOWANIE</span><div class="card-art">RIDE</div><div><h3>Pod Twój styl</h3><p>Dobieramy kierunek projektu do Ciebie i Twojej jazdy. Bez katalogowych kompromisów.</p></div></article></div></section>
 <section id="historia" class="story"><div class="wrap section"><div><div class="kicker" style="color:#aaa">Tu zaczyna się każda para</div><h2>Warsztat.<br>Góry.<br><em>Pasja.</em></h2><p class="story-copy">Jestem instruktorem narciarstwa, stolarzem z wyboru oraz doświadczonym inżynierem konstruktorem z zawodu i wykształcenia. Łączę wiedzę techniczną z miłością do jazdy i pracy w drewnie. DobraDecha powstaje w moim warsztacie w <strong>Mysłakowicach, koło Jeleniej Góry</strong> — u stóp Karkonoszy, gdzie każda para zaczyna się od pasji.</p><p class="quote">„Dobra decha ma dawać frajdę, zanim jeszcze spadnie pierwszy śnieg.”</p></div></div></section>
 <section id="kontakt" class="wrap section contact"><div><div class="kicker">Zróbmy coś dobrego</div><h2>Masz pomysł?<br><em>Dawaj znać.</em></h2><p>Opowiedz, jak jeździsz i jakie narty chodzą Ci po głowie. Pogadamy o kształcie, charakterze i kolorach.</p></div><div class="contact-box"><small>Napisz do warsztatu</small><a href="mailto:adam@dobradecha.pl"><span>adam@dobradecha.pl</span><span aria-hidden="true">↗</span></a><div class="fine">Mysłakowice · koło Jeleniej Góry<br>Warsztat w Karkonoszach</div></div></section><section id="lokalizacja" class="location"><div class="wrap section location-grid"><div class="location-info"><div class="kicker" style="color:#aaa">Kontakt</div><h2>Tu robimy<br><em>DobrąDechę.</em></h2><address>Mysłakowice<br>Polska</address><div class="location-links"><a href="mailto:adam@dobradecha.pl">adam@dobradecha.pl</a><a href="tel:+48783216452">+48 783 216 452</a><a href="https://www.google.com/maps/search/?api=1&query=50.83656,15.78714" target="_blank" rel="noopener">Otwórz trasę w Google Maps ↗</a></div></div><div class="location-map"><a href="https://www.openstreetmap.org/#map=16/50.83656/15.78714" target="_blank" rel="noopener" aria-label="Otwórz mapę w OpenStreetMap"><img src="mapa-openstreetmap.png" alt="Statyczna mapa OpenStreetMap centrum Mysłakowic z pinezką"><span class="map-pin" aria-hidden="true"></span></a><small class="map-credit">© <a href="https://www.openstreetmap.org/copyright" target="_blank" rel="noopener">OpenStreetMap contributors</a></small></div></div></section></main>
-<footer class="footer"><div class="wrap"><a class="brand" href="#start"><img src="dobradecha-logo.svg" alt=""><span class="brand-name"><i>Dobra</i>Decha</span></a><span>Ręcznie robione narty z drewna · Karkonosze</span><span>© DobraDecha 2026</span></div></footer>
+<footer class="footer"><div class="wrap"><a class="brand" href="#start"><img src="dobradecha-logo.svg" alt=""><span class="brand-name"><i>Dobra</i>Decha</span></a><span>Ręcznie robione narty z drewna · Karkonosze</span><span>© DobraDecha 2026</span><button class="consent-settings" type="button" data-consent-settings>Ustawienia cookies</button></div></footer>
+<aside class="consent-banner" role="region" aria-label="Ustawienia prywatności" hidden data-consent-banner>
+  <div class="consent-copy"><strong>Twoja prywatność</strong><p>Używamy Google Analytics, aby lepiej rozumieć, jak działa strona. Analityka uruchomi się tylko za Twoją zgodą. Wybór możesz zmienić w dowolnym momencie w stopce.</p></div>
+  <div class="consent-actions"><button class="consent-reject" type="button" data-consent-reject>Odrzuć analitykę</button><button class="consent-accept" type="button" data-consent-accept>Akceptuję</button></div>
+</aside>
 <script>
+(()=>{
+ const measurementId='G-W0S25JWRCM';
+ const storageKey='dobradecha-consent-v1';
+ const banner=document.querySelector('[data-consent-banner]');
+ const accept=document.querySelector('[data-consent-accept]');
+ const reject=document.querySelector('[data-consent-reject]');
+ const settings=document.querySelector('[data-consent-settings]');
+ const denied={analytics_storage:'denied',ad_storage:'denied',ad_user_data:'denied',ad_personalization:'denied'};
+ const granted={...denied,analytics_storage:'granted'};
+ window.dataLayer=window.dataLayer||[];
+ window.gtag=function(){window.dataLayer.push(arguments);};
+ window.gtag('consent','default',{...denied,wait_for_update:500});
+ let loaded=false;
+ const loadAnalytics=()=>{
+  if(loaded)return;
+  loaded=true;
+  window.gtag('consent','update',granted);
+  window.gtag('js',new Date());
+  window.gtag('config',measurementId);
+  const script=document.createElement('script');
+  script.async=true;
+  script.src='https://www.googletagmanager.com/gtag/js?id='+measurementId;
+  document.head.appendChild(script);
+ };
+ const saveChoice=choice=>{
+  try{localStorage.setItem(storageKey,choice);}catch(error){}
+  if(choice==='granted')loadAnalytics();
+  else if(loaded)window.gtag('consent','update',denied);
+  banner.hidden=true;
+ };
+ let savedChoice=null;
+ try{savedChoice=localStorage.getItem(storageKey);}catch(error){}
+ if(savedChoice==='granted')loadAnalytics();
+ else if(savedChoice!=='denied')banner.hidden=false;
+ accept.addEventListener('click',()=>saveChoice('granted'));
+ reject.addEventListener('click',()=>saveChoice('denied'));
+ settings.addEventListener('click',()=>{banner.hidden=false;accept.focus();});
+})();
+
 (()=>{
  const carousel=document.querySelector('[data-hero-carousel]');
  if(!carousel)return;
